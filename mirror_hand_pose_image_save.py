@@ -41,6 +41,11 @@ with mp_hands.Hands(min_detection_confidence=0.8, min_tracking_confidence=0.5) a
                                         mp_drawing.DrawingSpec(color=(0, 256, 0), thickness=2, circle_radius=4),
                                         mp_drawing.DrawingSpec(color=(0, 0, 256), thickness=2, circle_radius=2))
 
+
+        #Save images // uncomment if you need to save images
+        # cv2.imwrite(os.path.join('save_images','{}.jpg'.format(uuid.uuid1())),image)
+
+
         # Display the resulting frame
         cv2.imshow('Hand Tracking (Mirrored)', image)
 

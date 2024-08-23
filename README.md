@@ -14,7 +14,7 @@ Follow these steps to install the project:
 
 1. Clone the repository
 2. Install the required libries from install.txt
-3. Run _mirror_hand_pos.py_ for realtime hand detection
+3. Run _mirror_hand_pose.py_ for realtime hand detection
 4. Run _mirror_hand_pose_saveVideo.py_ for realtime hand detection and save realtime video
 5. Run _mirror_hand_pose_image_save.py_ for realtime hand detection and save realtime video frames as images
 

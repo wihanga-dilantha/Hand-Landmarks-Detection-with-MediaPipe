@@ -1,1 +1,1 @@
-##simple hand-landmarks-detection project with MediaPipe
+## simple hand-landmarks-detection project with MediaPipe
